@@ -187,20 +187,20 @@ h1, h2, h3, h4, input, select, button, span, a, p {
 }
 
 #content > .section > .section-content {
-  width: calc(100% - 0.75rem);
+  width: calc(100%);
   background-color: rgb(var(--theme-light));
   padding: 0.75rem;
   overflow: auto;
 }
 
 #content > .section:nth-of-type(odd) > .section-content {
-  margin-left: 0.75rem;
+  margin-left:0;
   border-top-left-radius: 0.45rem;
   border-bottom-left-radius: 0.45rem;
 }
 
 #content > .section:nth-of-type(even) > .section-content {
-  margin-right: 0.75rem;
+  margin-right:0 ;
   border-top-right-radius: 0.45rem;
   border-bottom-right-radius: 0.45rem;
 }
